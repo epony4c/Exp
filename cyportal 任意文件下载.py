@@ -10,7 +10,7 @@ patch2 = "&templateName="
 agent = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
 
 
-url = input("URL {http://xxxxx/cyportal1.2/}")         #"http://www.tscz.gov.cn/cyportal1.2/"
+url = input("URL {http://xxxxx/cyportal1.2/}")         #"http://www.XXXXXX.cn/cyportal1.2/"
 lujing = requests.get(url + 'DownloadTemplateFile?operate=all')
 req = lujing.text
 print(req)
